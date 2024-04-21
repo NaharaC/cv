@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family */
+
+.lora-regular {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lora-medium {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lora-semibold {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lora-bold {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* colors */
+
+:root {
+    --color-1:#EBE7E1;
+    --color-2:#B28B65;
+    --light:#F5F5F5;
+    --dark:#020202;
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-color-1 {
+    background-color: var(--color-1);
+}
+
+.text-dark {
+    color: var(--dark);
+}
+
+.text-light {
+    color: var(--light);
+}
+
+.text-color-2 {
+    color: var(--color-2);
+}
