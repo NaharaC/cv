@@ -34,13 +34,13 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">Portafolio</a>
-                    <a class="nav-link" href="#">Educación</a>
-                    <a class="nav-link" href="#">Experiencia</a>
+                    <a class="nav-link" href="#educacion">Educación</a>
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
                     <a class="nav-link disabled">Contacto</a>
                 </div>
             </div>
             <div>
-                <img src="./assets/imgs/nahara_gutierrez.png" alt="Logo Nahara Gutiérrez" class="logo">
+                <img src="./assets/imgs/logo-dark.png" alt="Logo Nahara Gutiérrez" class="logo">
             </div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -81,8 +81,8 @@
     <main>
 
         <!-- Estudios -->
-        <div class="bg-light py-5 d-flex flex-column align-items-center">
-            <h2 class="text-color-2 lora-semibold mb-5">Estudios</h2>
+        <div class="bg-light py-5 d-flex flex-column align-items-center" id="educacion">
+            <h2 class="text-color-2 lora-semibold mb-5">Educación</h2>
             <div class="d-flex justify-content-evenly w-100">
                 <div class="d-flex flex-column align-items-center">
                     <i class="fa-solid fa-building-columns fa-3x my-4"></i>
@@ -95,7 +95,7 @@
             </div>
         </div>
 
-        <div class="bg-color-1 py-5 d-flex flex-column align-items-center">
+        <div class="bg-color-1 py-5 d-flex flex-column align-items-center" id="experiencia">
             <h2 class="text-dark lora-semibold mb-5">Experiencia</h2>
 
             <div class="d-flex justify-content-evenly w-100">
@@ -136,6 +136,32 @@
         </div>
 
     </main>
+
+    <div class="bg-dark text-light">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span>Curriculum Vitae</span>
+            </div>
+
+            <div>
+                <img src="./assets/imgs/logo-light.png" alt="Logo Nahara Gutiérrez" class="logo">
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li>
+                    <i class="fa-brands fa-twitter m-3"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-linkedin m-3"></i>
+                </li>
+            </ul>
+        </footer>
+    </div>
 
 
 </body>
